@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- Skip Links -->
+<div class="skip-links">
+    <a href="#projects">Skip to my projects</a>
+    <a href="#footer">Skip to footer</a>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">YL_Artist</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+</nav>
+
+<!-- Projects Carousel -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2>Projects</h2>
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="bakery_project.html">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="images/bakery_large.jpg">
+                        <img src="images/bakery_small.jpg" alt="Project 1" class="d-block w-100">
+                    </picture>
+                    <div class="carousel-caption">
+                        <h5>Local Bakery website design</h5>
+                        <p>The bakery website was meticulously designed to capture the essence of a traditional bakery, blending it seamlessly with modern digital aesthetics. The primary goal was to provide an online platform for the bakery to showcase its range of delectable products, share its rich history, and facilitate easy customer interactions.</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="gov_project.html">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="images/gov_large.jpg">
+                        <img src="images/gov_small.jpg" alt="gove_proj" class="d-block w-100">
+                    </picture>
+                    <div class="carousel-caption">
+                        <h5>Candidate Propaganda Website Project</h5>
+                        <p>The candidate propaganda website was strategically designed to promote the vision, mission, and values of the political candidate. The primary objective was to create a compelling online platform that resonates with voters, providing them with comprehensive information about the candidate's policies, achievements, and future plans.</p>
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white text-center py-3" id="footer">
+    <p>&copy; 2023 YL_Artist. All rights reserved.</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
